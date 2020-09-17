@@ -1563,8 +1563,6 @@ public class symbolicCoordinatesScript : MonoBehaviour
 				break;
 
 				default:
-				GetComponent<KMBombModule>().HandleStrike();
-				Debug.LogFormat("[Symbolic Coordinates #{0}] Strike! The mothership has been contacted. Please do not re-submit coordinates.", moduleId);
 				break;
 				}
 
